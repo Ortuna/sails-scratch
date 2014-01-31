@@ -34,6 +34,10 @@ module.exports.routes = {
   // (This would also work if you had a file at: `/views/home.ejs`)
   '/': {
     view: 'home/index'
+  },
+  '/items/:message': {
+    controller: 'SocketController',
+    action: 'index'
   }
 
   /*
