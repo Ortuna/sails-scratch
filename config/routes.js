@@ -38,6 +38,9 @@ module.exports.routes = {
   '/items/:message': {
     controller: 'SocketController',
     action: 'index'
+  },
+  '/timestamp': {
+    controller: 'TimeStampController'
   }
 
   /*

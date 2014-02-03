@@ -6,7 +6,6 @@ module.exports = {
     // Send a JSON response
     res.json({
       success: true,
-      stuff: "yes",
       message: param
     });
   }
